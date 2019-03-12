@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
+import herobkg from '/images/herobkg.jpg'
 
 import { Layout, Article, Wrapper, Button, SectionTitle } from '../components'
 
@@ -49,7 +50,7 @@ const IndexPage = ({
   <Layout>
     <Wrapper>
       <Hero>
-        <h1>Hi.</h1>
+        <h1>Steven Ray Byrd</h1>
         <p>
           I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
           React apps with the best UX users can get.
