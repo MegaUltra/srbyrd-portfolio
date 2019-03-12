@@ -45,7 +45,7 @@ const SEO = props => {
       '@type': 'Person',
       name: config.author,
     },
-    copyrightYear: '2018',
+    copyrightYear: '2019',
     creator: {
       '@type': 'Person',
       name: config.author,
