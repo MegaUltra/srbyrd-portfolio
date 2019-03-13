@@ -204,9 +204,7 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          &copy; 2019 by John Doe. All rights reserved. <br />
-          <a href="https://github.com/LekoArts/gatsby-starter-minimal-blog">GitHub Repository</a> <br />
-          <span>Last build: {buildTime}</span>
+          &copy; {new Date().getFullYear()} Steven Ray Byrd
         </Footer>
       </>
     </ThemeProvider>

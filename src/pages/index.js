@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
-import herobkg from '/images/herobkg.jpg'
+import herobkg from '../images/herobkg.jpg'
 
 import { Layout, Article, Wrapper, Button, SectionTitle } from '../components'
 
@@ -22,6 +22,8 @@ const Content = styled.div`
 
 const Hero = styled.div`
   grid-column: 2;
+  background: url(${herobkg}) no-repeat center;
+  background-size: cover;
   padding: 3rem 2rem 6rem 2rem;
   text-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
   color: ${props => props.theme.colors.grey.dark};
