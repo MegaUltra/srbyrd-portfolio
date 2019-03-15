@@ -889,9 +889,9 @@
   integrity sha512-eItQyV43bj4rR3JPV0Skpl1SncRCdziTEK9/v8VwXmV6d/qOUO8/EuWeHBbCZcsfSHfzI5UyMJLCSXtxxznyZg==
 
 "@types/q@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.1.tgz#48fd98c1561fe718b61733daed46ff115b496e18"
-  integrity sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA==
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
+  integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
 "@types/reach__router@^1.0.0":
   version "1.2.3"
@@ -2244,9 +2244,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000939, caniuse-lite@^1.0.30000940:
-  version "1.0.30000945"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000945.tgz#d51e3750416dd05126d5ac94a9c57d1c26c6fd21"
-  integrity sha512-PSGwYChNIXJ4FZr9Z9mrVzBCB1TF3yyiRmIDRIdKDHZ6u+1jYH6xeR28XaquxnMwcZVX3f48S9zi7eswO/G1nQ==
+  version "1.0.30000946"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000946.tgz#ac50a3331bb805b483478bbc26a0ab71bb6d0509"
+  integrity sha512-ZVXtMoZ3Mfq69Ikv587Av+5lwGVJsG98QKUucVmtFBf0tl1kOCfLQ5o6Z2zBNis4Mx3iuH77WxEUpdP6t7f2CQ==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -5075,10 +5075,10 @@ gatsby-remark-images@^3.0.9:
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.0.1"
 
-gatsby-source-filesystem@^2.0.24:
-  version "2.0.24"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.24.tgz#4f079e73253b969caaf0cf7576447852db7fdf02"
-  integrity sha512-KzyHzuXni9hOiZFDgeoH5ABJZqb59fSJNGr2C4U6B1AlGXFMucFK45Fh3V8axtpi833bIbCb9rGmK+tvL4Qb1w==
+gatsby-source-filesystem@~2.0.25:
+  version "2.0.25"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.25.tgz#1069328eb397d9ab91c1c026769bf439c77bb755"
+  integrity sha512-kh160EFPzwMa1EBD45FG+cduzn1we0++Ch5nEt3lOJHONEZxfmYWIbE39YancEKQ+nCOoDOK/ohVzYTBVxh0NQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     better-queue "^3.8.7"
@@ -5108,10 +5108,10 @@ gatsby-transformer-sharp@^2.1.17:
     probe-image-size "^4.0.0"
     sharp "^0.21.3"
 
-gatsby@^2.1.31:
-  version "2.1.31"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.31.tgz#6f65fc903607292f95a4518f2aeefe791aa9daf4"
-  integrity sha512-PYa6cGojhmNweepbZ90VXMLbEPA9GUA6GWWHVjJnm2twxrJWk5C5/T/q2grRrUpmGeKwcP9Mjcc/AtN4GHsf2w==
+gatsby@~2.1.32:
+  version "2.1.32"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.32.tgz#81771c42de68cc6b503b93b80812312a1c47d9cb"
+  integrity sha512-vb2i+zBGOzIChW0AxjhZwahKGIEwTlCPHekVdCanSUKOpp0xOfK3mTE7pDSP0ZMw0VdjRAZTMAYmmegqoT8fLA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
